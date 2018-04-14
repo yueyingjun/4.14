@@ -19,7 +19,6 @@ def sort(arr,type=1):
 
     return arr
 
-arr1=[213,13,43,12,23]
 def insert (arr):
     for curr in range(1,len(arr)):
         up=curr-1
@@ -32,7 +31,7 @@ def insert (arr):
                 up=up-1
             arr[up+1]=temp;
     return arr;
-print(insert(arr1))
+
 
 
 
